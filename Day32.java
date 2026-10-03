@@ -9,10 +9,10 @@ public class Day32 {
 
         System.out.println("=== CEK NILAI ===");
 
-        System.out.print("Maukkan nilai a: ");
+        System.out.print("Masukkan nilai tugas: ");
         int a = in.nextInt();
         
-        System.out.print("Maukkan nilai b: ");
+        System.out.print("Masukkan nilai ujian: ");
         int b = in.nextInt();
 
         int nilai  = a * b;
