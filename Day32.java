@@ -17,10 +17,10 @@ public class Day32 {
 
         int nilai  = a * b;
 
-        boolean hasil = nilai >= 75 && nilai <= 300;
+        boolean lulus = nilai >= 75 && nilai <= 300;
 
         System.out.println("Hasil dari nilai : " + nilai);
-        System.out.println("Apakah nilai lulus? " + hasil);
+        System.out.println("Apakah nilai lulus? " + lulus);
 
     }
 
