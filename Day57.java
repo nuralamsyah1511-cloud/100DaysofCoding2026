@@ -10,7 +10,7 @@ public class Day57{
         int n = in.nextInt();
 
         System.out.print("Angka genap: ");
-        for (int i = 0; i <= n; i++){
+        for (int i = 1; i <= n; i++){
             if (i % 2 == 0){
                 System.out.print(i+" ");
             }
