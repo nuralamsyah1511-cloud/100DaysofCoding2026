@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Day58{
     public static void main(String[] args) {
+        // Day58
+        // mencetak angka ganjil N-1 dan Angka Genap N-1
         Scanner in = new Scanner(System.in);
 
         System.out.print("Masukkan batas angka: ");
