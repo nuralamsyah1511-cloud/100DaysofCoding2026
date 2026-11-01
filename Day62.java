@@ -2,7 +2,7 @@ public class Day62 {
     public static void main(String[] args) {
 
         // Day 62
-        // Latihan Nested Loop
+        // Nested Loop
 
         for (int i = 1; i <= 5; i++) {
 
