@@ -7,18 +7,18 @@ public class Day69 {
 
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Masukkan jumlah baris: ");
-        int baris = in.nextInt();
+        System.out.print("masukkan jumlah baris: ");
+        int ba = in.nextInt();
 
-        System.out.print("Masukkan jumlah kolom: ");
-        int kolom = in.nextInt();
+        System.out.print("masukkan jumlah kolom: ");
+        int ko = in.nextInt();
 
-        for (int i = 1; i <= baris; i++) {
-            for (int j = 1; j <= kolom; j++) {
+        for (int i = 1; i <= ba; i++) {
+            for (int j = 1; j <= ko; j++) {
                 System.out.print("* ");
             }
             System.out.println();
         }
-
+        in.close();
     }
 }
