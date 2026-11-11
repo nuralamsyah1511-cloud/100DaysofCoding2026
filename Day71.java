@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Day71 {
     public static void main(String[] args) {
-        //Day 70
+        //Day 71
         //Membuat pola segitiga siku-siku terbalik
 
         Scanner in = new Scanner(System.in);
