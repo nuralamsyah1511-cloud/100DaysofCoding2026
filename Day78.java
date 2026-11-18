@@ -12,31 +12,31 @@ public class Day78 {
         System.out.println("=== BUAT AKUN ===");
 
         System.out.print("Buat username: ");
-        String username = in.nextLine();
+        String u = in.nextLine();
 
         System.out.print("Buat password: ");
-        String password = in.nextLine();
+        String p = in.nextLine();
 
         System.out.println("\nAkun berhasil dibuat!");
 
         // Login
         System.out.println("\n=== LOGIN ===");
 
-        String user;
-        String pass;
+        String un;
+        String ps;
         int percobaan = 0;
 
         while (true) {
 
             System.out.print("Masukkan username: ");
-            user = in.nextLine();
+            un = in.nextLine();
 
             System.out.print("Masukkan password: ");
-            pass = in.nextLine();
+            ps = in.nextLine();
 
             percobaan++;
 
-            if (user.equals(username) && pass.equals(password)) {
+            if (un.equals(u) && ps.equals(p)) {
                 System.out.println("\nLogin berhasil!");
                 System.out.println("Jumlah percobaan: " + percobaan);
                 break;
